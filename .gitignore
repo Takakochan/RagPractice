@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# uv / venv
+.venv/
+.python-version
+
+# Lint / type-check caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+
+# Corpus and datasets (large, provided externally, not source-controlled)
+data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
